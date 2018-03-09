@@ -13,11 +13,13 @@ Plug 'slashmili/alchemist.vim'
 Plug 'zchee/deoplete-jedi'
 Plug 'nsf/gocode'
 
-let g:deoplete#enable_at_startup = 1
 
 call plug#end()
 
-"Neoformat
+" Deoplete
+let g:deoplete#enable_at_startup = 1
+
+" Neoformat
 
 augroup fmt
 	autocmd!
